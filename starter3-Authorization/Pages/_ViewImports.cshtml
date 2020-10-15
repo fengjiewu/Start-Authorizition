@@ -3,3 +3,8 @@
 @using ContactManager.Data
 @namespace ContactManager.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using ContactManager.Authorization;
+@using Microsoft.AspNetCore.Authorization
+@using ContactManager.Models
+@using ContactManager.Common
+@inject IAuthorizationService AuthorizationService
