@@ -13,6 +13,6 @@ namespace ContactManager.Data
             : base(options)
         {
         }
-        public DbSet<ContactManager.Models.Contact> Contact { get; set; }
+        public DbSet<Contact> Contact { get; set; }
     }
 }
